@@ -75,7 +75,7 @@ nav ul li a {
     color: white;
     padding: 1.5rem;
     justify-content: center;
-    
+
 
 }
 
@@ -390,7 +390,42 @@ iframe {
 
 }
 
+/*Appi*/
 
+.comentarioclientes {
+   
+    background-color: aqua;
+    width: 95%;
+    min-height: 20vh;
+    padding: 1rem;
+    text-align: center;
+    background-image: url(../fotos/27527.jpg);
+margin: auto;
+border-radius: 5px;
+
+}
+
+.comentarioclientes h4 {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    
+}
+
+#contenido img {
+    border-radius: 50%;
+
+}
+
+
+.comentarioclientes p{
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 60%;
+    margin: auto;
+}
 /* Puntos de Corte */
 
 @media screen and (max-width:640px) {
@@ -407,7 +442,7 @@ iframe {
     nav {
         height: 5vh;
         width: 20%;
-        
+
 
     }
 
@@ -431,9 +466,11 @@ iframe {
 
 
     }
-nav ul li a {
-    font-size: 2rem;
-}
+
+    nav ul li a {
+        font-size: 2rem;
+    }
+
     nav ul li {
         display: block;
         padding: 4rem;
@@ -497,7 +534,7 @@ nav ul li a {
     footer {
         display: inline-block;
         justify-content: space-around;
-        height: 15vh;
+        min-height: 15vh;
         padding: 2rem 0;
 
     }
@@ -530,6 +567,7 @@ nav ul li a {
     }
 
 }
+
 @media screen and (max-width:800px) {
 
     body {
@@ -544,7 +582,7 @@ nav ul li a {
     nav {
         height: 10vh;
         width: 20%;
-        
+
 
     }
 
@@ -568,9 +606,11 @@ nav ul li a {
 
 
     }
+
     nav ul li a {
         font-size: 2rem;
     }
+
     nav ul li {
         display: block;
         padding: 4rem;
