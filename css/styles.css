@@ -13,11 +13,8 @@ html {
 body {
 
     font-family: 'Aboreto', cursive;
-    
-    
-}
-main{
     background-color: rgb(179, 161, 136);
+    
 }
 
 /* barra de navegacion */
@@ -52,7 +49,7 @@ header {
 
 }
 
-input {
+nav input {
     display: none;
 }
 
@@ -304,7 +301,7 @@ main.h2 {
     font-size: 1.5rem;
     text-align: center;
     width: 30%;
-    max-height: 70vh;
+    max-height: 75vh;
     color: white;
     justify-content: center;
     padding: 3rem 0;
@@ -331,6 +328,115 @@ iframe {
     width: 75%;
     height: 70%;
 }
+
+/* Pagina Contacto*/
+
+.row{
+    width: 60%;
+    min-height: 30%;
+    background-image: url(../fotos/27527.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 3rem 0;
+    display: block;
+}
+.formdatos{
+    display: block;
+    margin: 2rem auto;
+    width: 60%;
+    justify-content:  center;
+    text-align: center;
+        
+}
+
+.form-control{
+height: 3rem;
+width: inherit;
+font-family: 'Aboreto', cursive;
+}
+.form-select{
+    height: 3rem;
+    width: inherit;
+    font-family: 'Aboreto', cursive; 
+}
+
+.form-select option{
+    font-weight: bold;
+    width: inherit;
+}
+.form-check{
+width: 100%;
+
+
+}
+.form-check input {
+margin: 0;
+width: 5%;
+}
+
+.form-check-label{
+    text-align: center;
+    margin: 0;
+      
+    
+}
+#com{
+    width: 80%;
+    font-family: 'Aboreto', cursive;
+}
+.btn-primary{
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+   background-color: rgb(145, 84, 84);
+  }
+
+  .comentarioclientes {
+    font-family: 'Aboreto', cursive;
+    background-color: aqua;
+    width: 60%;
+    min-height: 20vh;
+    padding: 1rem;
+    text-align: center;
+    background-image: url(../fotos/27527.jpg);
+    margin: 2rem auto;
+    border-radius: 5px;
+    
+
+}
+
+.comentarioclientes h4 {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Aboreto', cursive;
+}
+
+#contenido img {
+    border-radius: 50%;
+
+}
+
+.comentarioclientes p {
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 60%;
+    margin: auto;
+    font-family: 'Aboreto', cursive;
+}
+
 
 /* Pagina Nosotros */
 
@@ -388,42 +494,8 @@ iframe {
 
 }
 
-/*Api*/
 
-.comentarioclientes {
-    font-family: 'Aboreto', cursive;
-    background-color: aqua;
-    width: 95%;
-    min-height: 20vh;
-    padding: 1rem;
-    text-align: center;
-    background-image: url(../fotos/27527.jpg);
-    margin: auto;
-    border-radius: 5px;
 
-}
-
-.comentarioclientes h4 {
-    color: white;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-    font-size: 2rem;
-    font-family: 'Aboreto', cursive;
-}
-
-#contenido img {
-    border-radius: 50%;
-
-}
-
-.comentarioclientes p {
-    color: white;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    width: 60%;
-    margin: auto;
-    font-family: 'Aboreto', cursive;
-}
 
 /* Puntos de Corte */
 
